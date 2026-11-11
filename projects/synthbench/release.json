@@ -1,0 +1,7 @@
+{
+  "project": "synthbench",
+  "release_channel": "public",
+  "latest_version": "2.0.0",
+  "stable": true,
+  "license": "Apache-2.0"
+}

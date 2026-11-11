@@ -1,0 +1,7 @@
+{
+  "project": "dataweave",
+  "release_channel": "public",
+  "latest_version": "0.9.4",
+  "stable": true,
+  "license": "BSD-3-Clause"
+}

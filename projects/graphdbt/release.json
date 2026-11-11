@@ -1,0 +1,7 @@
+{
+  "project": "graphdbt",
+  "release_channel": "public",
+  "latest_version": "0.5.2",
+  "stable": true,
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+{
+  "project": "querylens",
+  "release_channel": "public",
+  "latest_version": "0.3.1",
+  "stable": true,
+  "license": "MIT"
+}

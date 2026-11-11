@@ -1,0 +1,83 @@
+{
+  "site_title": "Northbridge Laboratory for Data Systems — Publication Catalog",
+  "curator": "Jason Hernandez",
+  "papers": [
+    {
+      "paper_slug": "streamforge",
+      "paper_title": "StreamForge: Adaptive Stream Ingestion for Lakehouse Systems",
+      "authors": "Jason Hernandez, Priya Raman, Daniel Osei",
+      "status": "under_review",
+      "venue": "Under review",
+      "project_url": "",
+      "updated_at": "2026-03-01",
+      "repo_slug": "streamforge",
+      "abstract": "StreamForge studies adaptive micro-batch sizing for lakehouse ingestion and shows that workload-aware batching reduces end-to-end latency without sacrificing exactly-once guarantees."
+    },
+    {
+      "paper_slug": "querylens",
+      "paper_title": "QueryLens: Cost-Aware Query Rewriting with LLM Feedback",
+      "authors": "Jason Hernandez, Sofia Mendes, Kenji Watanabe",
+      "status": "under_review",
+      "venue": "Under review",
+      "project_url": "",
+      "updated_at": "2026-03-10",
+      "repo_slug": "querylens",
+      "abstract": "QueryLens couples a cost model with language-model-generated rewrite candidates, keeping only rewrites whose estimated cost improves under the target warehouse statistics."
+    },
+    {
+      "paper_slug": "fastrank",
+      "paper_title": "FastRank: Latency-Aware Ranking for Real-Time Feature Stores",
+      "authors": "Jason Hernandez, Amara Diallo, Lucas Ferreira",
+      "status": "under_review",
+      "venue": "Under review",
+      "project_url": "",
+      "updated_at": "2026-02-18",
+      "repo_slug": "fastrank",
+      "abstract": "FastRank explores latency-aware ranking strategies for feature-store serving, balancing freshness of features against tail latency in online recommendation workloads."
+    },
+    {
+      "paper_slug": "dataweave",
+      "paper_title": "DataWeave: Declarative Orchestration for Heterogeneous Data Pipelines",
+      "authors": "Jason Hernandez, Mei Lin, Omar Haddad",
+      "status": "preprint",
+      "venue": "Preprint",
+      "project_url": "",
+      "updated_at": "2026-02-01",
+      "repo_slug": "dataweave",
+      "abstract": "DataWeave introduces a declarative orchestration layer that compiles heterogeneous ETL pipelines into a unified execution plan across batch and streaming runtimes."
+    },
+    {
+      "paper_slug": "ledgerstream",
+      "paper_title": "LedgerStream: Exactly-Once Change Data Capture at Scale",
+      "authors": "Jason Hernandez, Nora Petrov, Wei Zhang",
+      "status": "under_review",
+      "venue": "Under review",
+      "project_url": "",
+      "updated_at": "2026-04-05",
+      "repo_slug": "ledgerstream",
+      "abstract": "LedgerStream provides exactly-once change data capture over partitioned logs, using a lightweight ledger protocol to recover from partial failures without global locking."
+    },
+    {
+      "paper_slug": "graphdbt",
+      "paper_title": "GraphDBT: Graph-Aware Transformations for Analytical Workloads",
+      "authors": "Jason Hernandez, Elena Rossi, Tunde Adeyemi",
+      "status": "under_review",
+      "venue": "Under review",
+      "project_url": "",
+      "updated_at": "2026-02-20",
+      "repo_slug": "graphdbt",
+      "abstract": "GraphDBT extends transformation tooling with graph-aware lineage analysis, allowing analysts to reason about join graphs and materialization strategies inside existing data build pipelines."
+    },
+    {
+      "paper_slug": "synthbench",
+      "paper_title": "SynthBench: A Benchmark Suite for Synthetic Relational Data",
+      "authors": "Jason Hernandez, Hannah Cole, Ravi Menon",
+      "status": "accepted",
+      "venue": "MDS 2025",
+      "project_url": "https://github.com/knobbyintens/emails_github_2183_lab_s7d2q/tree/main/projects/synthbench",
+      "updated_at": "2025-11-10",
+      "repo_slug": "synthbench",
+      "abstract": "SynthBench evaluates synthetic relational data generators along fidelity, privacy, and downstream utility axes, providing a reproducible benchmark harness for the data generation community."
+    }
+  ]
+}
